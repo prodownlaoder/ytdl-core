@@ -1,0 +1,26 @@
+{
+  "name": "cookies-extractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodownlaoder/cookies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prodownlaoder/cookies/issues"
+  },
+  "homepage": "https://github.com/prodownlaoder/cookies#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "puppeteer": "^24.16.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
