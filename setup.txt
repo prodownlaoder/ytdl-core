@@ -1,0 +1,26 @@
+Install this ----> 
+
+pip install playwright
+playwright install
+
+<-- # Create a file name as .env and run this file with python3 {filename} #  ->> 
+
+## It will automatically fetch the cookeis from the browser and add those cookeis in to the .env ##
+
+
+
+<<-------   OTHER SETUP   -------->> 
+
+To Find the cookeis-Sqlite in your linux machine you have to first signin to firefox and then run this command 
+
+#  RUN THIS IN TERMINAL   #
+Commands : find / -type f -name "cookies.sqlite" 2>/dev/null | grep firefox
+
+It will return you a path you have to replace that path with this Line in the Cookeis.py file 
+
+<<<<------- LINE 8 -------->>>>
+
+SQLITE_PATH = "/root/snap/firefox/common/.mozilla/firefox/b6my4d5n.myprofile/cookies.sqlite"
+
+
+ITS DONE 
